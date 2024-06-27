@@ -1,0 +1,11 @@
+com/spring/jpa/service/AutomovilService.class
+com/spring/jpa/service/IAutomovilService.class
+com/spring/jpa/model/Automovil.class
+com/spring/jpa/model/Persona.class
+com/spring/jpa/controller/AutomovilController.class
+com/spring/jpa/repository/IPersonaRepository.class
+com/spring/jpa/repository/IAutomovilRepository.class
+com/spring/jpa/service/IPersonaService.class
+com/spring/jpa/service/PersonaService.class
+com/spring/jpa/controller/PersonaController.class
+com/spring/jpa/JpaApplication.class

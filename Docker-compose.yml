@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  app_jpa:
+    build: jpa
+    mem_limit: 512m
+    ports:
+      - "8080:8080"
+    environment:
+      DB_URL: jdbc:mysql://iasanz.synology.me:3306/ccrp06_jpa?createDatabaseIfNotExist=true&serverTimezone=UTC
+      DB_USER_NAME: alumno
+      DB_PASSWORD: AlumnoSanz$1
+    restart: always
+    depends_on:
+      jpa:
+          condition: service_healthy
+  jpa:
+    image: mysql:8.3.0 
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: Iasanz12345$_
+      MYSQL_PASSWORD: AlumnoSanz$1
+      MYSQL_DATABASE: ccrp06_jpa
+    restart: always
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 10s
+      retries: 10

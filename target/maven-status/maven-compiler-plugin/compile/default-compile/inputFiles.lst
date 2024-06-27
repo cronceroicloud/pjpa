@@ -1,0 +1,11 @@
+/Users/croncero/Documents/jpa/src/main/java/com/spring/jpa/JpaApplication.java
+/Users/croncero/Documents/jpa/src/main/java/com/spring/jpa/controller/AutomovilController.java
+/Users/croncero/Documents/jpa/src/main/java/com/spring/jpa/controller/PersonaController.java
+/Users/croncero/Documents/jpa/src/main/java/com/spring/jpa/model/Automovil.java
+/Users/croncero/Documents/jpa/src/main/java/com/spring/jpa/model/Persona.java
+/Users/croncero/Documents/jpa/src/main/java/com/spring/jpa/repository/IAutomovilRepository.java
+/Users/croncero/Documents/jpa/src/main/java/com/spring/jpa/repository/IPersonaRepository.java
+/Users/croncero/Documents/jpa/src/main/java/com/spring/jpa/service/AutomovilService.java
+/Users/croncero/Documents/jpa/src/main/java/com/spring/jpa/service/IAutomovilService.java
+/Users/croncero/Documents/jpa/src/main/java/com/spring/jpa/service/IPersonaService.java
+/Users/croncero/Documents/jpa/src/main/java/com/spring/jpa/service/PersonaService.java
